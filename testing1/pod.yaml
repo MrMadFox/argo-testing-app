@@ -9,6 +9,6 @@ metadata:
 
 spec:
   containers:
-  - image: haproxy
+  - image: nginx
     name: nginxserver
 
