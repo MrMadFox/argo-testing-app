@@ -5,7 +5,8 @@ metadata:
   labels:
     run: nginx_server
   name: nginx_server
-  namespace: app_testing
+  namespace: apptesting1
+
 spec:
   containers:
   - image: nginx
