@@ -3,12 +3,12 @@ kind: Pod
 metadata:
   creationTimestamp: null
   labels:
-    run: nginx_server
-  name: nginx_server
+    run: nginxserver
+  name: nginxserver
   namespace: apptesting1
 
 spec:
   containers:
   - image: nginx
-    name: nginx_server
+    name: nginxserver
 
